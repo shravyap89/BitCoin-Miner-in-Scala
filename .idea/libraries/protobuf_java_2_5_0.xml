@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="protobuf-java-2.5.0">
+    <CLASSES>
+      <root url="jar://C:/akka-2.3.13/lib/akka/protobuf-java-2.5.0.jar!/" />
+      <root url="jar://C:/akka-2.3.13/lib/akka/netty-3.8.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

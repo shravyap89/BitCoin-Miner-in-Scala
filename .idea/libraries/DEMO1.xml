@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="DEMO1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+      <root url="jar://C:/akka-2.3.13/lib/akka/netty-3.8.0.Final.jar!/" />
+      <root url="jar://C:/akka-2.3.13/lib/akka/protobuf-java-2.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

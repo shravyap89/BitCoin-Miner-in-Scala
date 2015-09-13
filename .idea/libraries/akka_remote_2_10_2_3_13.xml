@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="akka-remote_2.10-2.3.13">
+    <CLASSES>
+      <root url="jar://C:/akka-2.3.13/lib/akka/akka-remote_2.10-2.3.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
