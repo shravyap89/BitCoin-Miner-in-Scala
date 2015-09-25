@@ -4,14 +4,6 @@ Group Members:
 1. Sravya Pasupuleti 21229828
 2. Priti Changlani   17824230
 
-Project structure:
-Project1withSBT
-	|
-	|---> project	       	
-	|---> target          |---> main 
-	|---> src------------>|---> resources        
-	|---> build.sbt	      |---> scala-----------> Project1.scala
-	|---> README.txt			     	
 
 Results obtained:
 1. We defined the work unit to be "Chunk" which is basically the number of bit coins that each worker has to generate in each call
