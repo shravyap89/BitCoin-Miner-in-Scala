@@ -16,16 +16,22 @@ import com.typesafe.config.ConfigFactory
 object Project1 {
 
   case class AssignWorkers()
+
   case class WorkAllocated(chunk: Int, zero_count: Int)
+
   case class CheckforduplicateMaster(bitcoin: String, sha_input: String)
+
   case class RegisteratServer()
+
   case class RemoteWorkerAvailable()
+
   case class ChunkComplete()
+
   case class End()
 
   def main(args: Array[String]) {
     val workers_count = 10
-    val chunk = 500
+    val chunk = 400
     val workers_call = 20
 
     //println("Entered the main")
@@ -56,7 +62,7 @@ object Project1 {
             enabled-transports = ["akka.remote.netty.tcp"]
 		  			netty.tcp{
 						  hostname = "127.0.0.1"
-              port = 0
+						  port = 0
 					  }
 				  }
       }""")
@@ -109,7 +115,7 @@ object Project1 {
       case ChunkComplete() =>
         count += 1
         //println("Count is " + count)
-        if (count == total_work_calls_with_remote){
+        if (count == total_work_calls_with_remote) {
           sender ! End()
           context.stop(self)
 
